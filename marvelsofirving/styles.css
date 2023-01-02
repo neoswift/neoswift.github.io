@@ -6,6 +6,7 @@ body {
 
 .container {
     display: grid;
+    color: lightseagreen;
     grid-template-columns: 1fr;
 }
 
@@ -115,6 +116,26 @@ body {
 .two-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.three-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.four-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.five-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.six-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
   
 .profile-image-wrapper img {
